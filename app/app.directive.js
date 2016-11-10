@@ -21,7 +21,7 @@ angular
         }
     })
     .controller('helloController', function(helloProvider, helloService, helloFactory){
-        helloProvider('world')
-        helloService('world')
-        helloFactory('world');
+        helloProvider('provider')
+        helloService('service')
+        helloFactory('factory');
     });
